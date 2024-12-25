@@ -1,0 +1,89 @@
+h1 {
+    font-family: Urbanist;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 2000;
+    margin: 0%;
+    padding: 0%;
+  }
+
+h2 {
+  font-family: Urbanist;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin:0;
+  padding:0;
+}
+
+
+body {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    text-align: center;
+    font-family: Urbanist;
+}
+
+li{ 
+    text-align: left;
+    vertical-align: middle;
+    font-family: Urbanist;
+    
+}
+
+html, body {
+    height: 100%; /* Full-height to center content */
+    margin: 0; /* Remove default margins */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+  }
+  
+  .centered {
+    text-align: center; /* Center-align text inside this container */
+  }
+  
+  body {
+	background: linear-gradient(-45deg, #93e6ff, #00e1ff, #00bbff, #0095c2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  display: block;
+}
+
+.button-row {
+  display: flex;         /* Arrange buttons in a row */
+  gap: 65px;             /* Add space between buttons */
+  margin-top: 20px;      /* Space above the button row */
+  justify-content: center;
+}
+
+#spah {
+  border-radius: 50%;
+}
+
